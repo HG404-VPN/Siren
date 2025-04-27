@@ -1,11 +1,11 @@
-name = "siren"
+name = "all"
 main = "build/worker/shim.mjs"
 compatibility_date = "2024-05-23"
 minify = true
 
 [[kv_namespaces]]
-binding = "Siren"
-id = "124327f73dfd42708052fbc686a634ae"
+binding = "SIREN"
+id = "fdc73b2720354b4fa852b38d865896f7"
 
 [build]
 command = "cargo install worker-build && worker-build --release"
